@@ -1,49 +1,66 @@
 # Suntaoran-Skill
 
-非官方学习笔记型 Agent Skill：把「复杂问题简单化」整理成可被 Codex、Claude Code、OpenClaw 等智能体调用的 `SKILL.md` 工作流。
+非官方学习笔记型 Agent Skill 集合：把孙陶然相关公开管理思想和用户 Notion 整理稿，重写成可被 Codex、Claude Code、OpenClaw 等智能体调用的 `SKILL.md` 工作流。
 
-> 免责声明：本仓库不是孙陶然本人、拉卡拉或任何相关机构的官方项目，也未获得其授权、背书或合作确认。仓库名和相关人名仅用于说明学习笔记的思想来源与主题方向。
+> 免责声明：本仓库不是孙陶然本人、拉卡拉、OpenAI、Anthropic 或任何相关机构的官方项目，也未获得授权、背书或合作确认。仓库名、相关人名和机构名仅用于说明学习笔记的思想来源、主题方向和归属边界。
 
-## 这个 Skill 解决什么
+## Skill 索引
 
-当一个问题被流程、前提、协调成本或「既要又要」拖复杂时，这个 Skill 会强制先回到目标，再拆解、聚焦、解耦、重设激励，并用最小试点验证。
+| Skill | 路径 | 解决什么 | 适合场景 |
+| --- | --- | --- | --- |
+| Simplify Problem | [`SKILL.md`](./SKILL.md) | 把复杂、耦合、卡住的问题重新定义目标，拆解瓶颈，并找最低成本验证路径。 | 想复杂了、推不动、既要又要、人不配合、方案越做越重。 |
+| Three-Point One-Page Report | [`skills/three-summary-one-page-report/SKILL.md`](./skills/three-summary-one-page-report/SKILL.md) | 用三条说清楚整件事，用一页报告给出问题、结论、论据和行动建议。 | 总结、汇报、提案、战略规划、复杂问题解释、材料压缩。 |
+
+## 如何使用
+
+只需要某一个 skill 时，复制对应路径下的 `SKILL.md` 到你的 Agent 技能目录。
+
+常见位置：
+
+- Codex / Codex CLI：项目 `AGENTS.md` 或用户全局 skill 目录
+- Claude Code：`.claude/skills/<skill-name>/SKILL.md`
+- 其他 Agent：按其技能系统要求放置 `SKILL.md`
+
+示例：
+
+```text
+请使用 three-point-one-page-report skill，把下面材料整理成三条总结和一页报告。
+读者是：____
+希望读者采取的行动是：____
+材料如下：____
+```
+
+## 内容概览
+
+### Simplify Problem
 
 一句话工作法：
 
 > 先问目的 -> 先有再好再省 -> 倒推解耦 -> 小步快跑 -> 改机制不靠意志 -> 选最省力那条路。
 
-## 什么时候调用
+该 skill 激活后应输出：
 
-- 被「行业惯例 / 一直这么做」困住
-- 头绪太多，不知道从哪里开始
-- 多个环节互相牵制，项目推不动
-- 出现「既要又要」的对立需求
-- 人不配合，反复说教无效
-- 方案越做越重，交付迟迟不能落地
-- 只在问「能不能做到」，没有比较「有没有更省力的路」
+- `redefined_goal`：剥离现有做法后的真实目标。
+- `decomposition`：MECE 子问题、依赖链、关键瓶颈。
+- `least_effort_solution`：最低成本、可独立验证的解法。
+- `validation_plan`：最小试点、验收标准、停止条件。
 
-## 安装方式
+### Three-Point One-Page Report
 
-把 [`SKILL.md`](./SKILL.md) 放入你的 Agent 技能目录，或复制到项目级指令文件中。
+一句话工作法：
 
-常见位置：
+> 三条覆盖全部，一页先给结论，行动建议必须明确。
 
-- Codex / Codex CLI：项目 `AGENTS.md` 或用户全局 skill 目录
-- Claude Code：`.claude/skills/simplify-problem/SKILL.md`
-- 其他 Agent：按其技能系统要求放置 `SKILL.md`
+该 skill 激活后应输出：
 
-## 输出契约
-
-该 Skill 激活后应输出：
-
-- `redefined_goal`：剥离现有做法后的真实目标
-- `decomposition`：MECE 子问题、依赖链、关键瓶颈
-- `least_effort_solution`：最省力、最低成本、可独立验证的解法
-- `validation_plan`：最小试点、验收标准、停止条件
-- `frameworks_used`：实际调用的框架，默认不超过 3 个
+- `Three-Point Summary`：严格三条，每条都用人话表达。
+- `One-Page Report`：问题、结论、论据、行动建议、附件。
+- `Self-Check`：确认三条是否覆盖全部、一页是否达标、模糊词是否替换、行动建议是否明确。
 
 ## 版权与来源说明
 
-本仓库内容来自用户自有 Notion 整理稿的重写和结构化，不直接发布完整原文。主要来源见 [`NOTICE.md`](./NOTICE.md)。
+本仓库内容来自用户自有 Notion 整理稿的重写和结构化，不直接发布完整原文，不使用第三方 logo、肖像、付费课程材料、书籍长摘录或演讲/文章原文。
+
+主要来源、非官方边界和权利处理方式见 [`NOTICE.md`](./NOTICE.md)。
 
 如果你是相关权利人，认为本仓库中的表述、名称或引用不合适，请通过 GitHub Issue 提出具体位置和原因；维护者会优先处理修改、署名补充或删除请求。
