@@ -2,7 +2,7 @@
 
 ## 中文摘要
 
-本仓库是非官方学习笔记型项目，不是孙陶然本人、拉卡拉或任何相关机构的官方作品，也未获得授权、背书或合作确认。
+本仓库是非官方学习笔记型项目，不是孙陶然本人、拉卡拉、OpenAI、Anthropic 或任何相关机构的官方作品，也未获得授权、背书或合作确认。
 
 本仓库只发布经过重写的 `SKILL.md` 工作流，不发布完整 Notion 原文，不使用第三方 logo、肖像、付费课程材料、书籍长摘录或演讲/文章原文。相关人名、项目名和链接仅用于说明来源、灵感和生态参考。
 
@@ -10,24 +10,35 @@
 
 ## Non-Official Status
 
-This repository is an unofficial learning-note project. It is not created, reviewed, authorized, endorsed, or sponsored by Sun Taoran, Lakala, Anthropic, or any other referenced person or organization.
+This repository is an unofficial learning-note project. It is not created, reviewed, authorized, endorsed, or sponsored by Sun Taoran, Lakala, OpenAI, Anthropic, or any other referenced person or organization.
 
 The repository name and references to "Sun Taoran / 孙陶然" are nominative references used to identify the learning theme and inspiration source. They should not be read as a claim of ownership, affiliation, certification, or official status.
 
-## Source Basis
+## Source Registry
 
-The current skill was rewritten and structured from the user's Notion draft:
+The repository currently contains these skills:
 
+### Simplify Problem
+
+- Skill path: [`SKILL.md`](./SKILL.md)
 - Notion source: https://www.notion.so/SKILL-02311484cea34b5d9e0ea51183c4f2b0?t=3731f8b5dc318083b96f00a9d78a3757
 - Page title observed on 2026-06-03: "聪明工作 · 简化问题 SKILL（聚合方法论）"
 
-The Notion draft itself cites or references the following GitHub projects as ecosystem inspiration:
+The source draft cites or references the following GitHub projects as ecosystem inspiration:
 
 - https://github.com/tjboudreaux/cc-thinking-skills
 - https://github.com/mattnowdev/thinking-partner
 - https://github.com/anthropics/skills
 - https://github.com/ComposioHQ/awesome-claude-skills
 - https://github.com/VoltAgent/awesome-agent-skills
+
+### Three-Point One-Page Report
+
+- Skill path: [`skills/three-summary-one-page-report/SKILL.md`](./skills/three-summary-one-page-report/SKILL.md)
+- Notion source: https://www.notion.so/Skill-595561ab61ef4a458cdb58a9f86ac0c6
+- Page title observed on 2026-06-03: "Skill · 三条总结 + 一页报告"
+
+The source draft organizes the idea around three-point summaries, one-page reports, plain language, numeric evidence, action recommendations, and a final self-check.
 
 ## Third-Party License Notes
 
@@ -47,9 +58,9 @@ If this repository later imports, copies, or adapts substantial text, code, temp
 
 To reduce infringement risk, this package follows these rules:
 
-- It publishes a concise operational skill, not the full Notion article.
-- It uses original wording where possible instead of long verbatim excerpts.
-- It avoids using third-party logos, photos, course materials, book excerpts, or paid content.
+- It publishes concise operational skills, not full Notion articles.
+- It uses rewritten wording instead of long verbatim excerpts.
+- It avoids third-party logos, photos, course materials, book excerpts, or paid content.
 - It treats management concepts and thinking frameworks as ideas, while protecting the concrete expression of those ideas by others.
 - It preserves source references so readers can distinguish attribution from authorship.
 
