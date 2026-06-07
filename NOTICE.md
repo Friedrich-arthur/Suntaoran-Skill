@@ -58,6 +58,16 @@ The source draft organizes the idea around three-point summaries, one-page repor
 
 该来源草稿围绕三条总结、一页报告、人话表达、数字化论据、行动建议和完成前自检进行组织。
 
+### Hiring Kit Generator / 招聘作战包生成器
+
+- Skill path / Skill 路径: [`skills/hiring-kit-generator/SKILL.md`](./skills/hiring-kit-generator/SKILL.md)
+- Notion source / Notion 来源: user-owned Notion draft; source URL intentionally omitted from public docs because it may be workspace-private.
+- Page title observed on 2026-06-07 / 2026-06-07 观察到的页面标题: "招聘作战包生成器 · 开源 Skill 打包（通用版 v1.0）"
+
+The source draft organizes a general hiring-kit workflow around intake interviews, company configuration, role classification, publishable JDs, internal checkpoints, scoring rubrics, trial tasks, hidden traps, candidate preparation guidance, and hiring timelines. Company-specific archival wording was removed during packaging.
+
+该来源草稿围绕采访、公司配置、岗位分流、可投放 JD、内部评判点、打分 Rubric、试岗任务、隐藏挖坑、候选人准备指引和招聘节奏组织成通用招聘作战包工作流。打包时已移除公司特定存档说明。
+
 ## Third-Party License Notes / 第三方许可说明
 
 This repository does not vendor, copy, or redistribute code from the referenced GitHub projects. It cites them as inspiration and ecosystem references.

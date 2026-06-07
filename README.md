@@ -14,6 +14,7 @@ An unofficial learning-note collection of Agent Skills. It rewrites public manag
 | --- | --- | --- | --- |
 | Simplify Problem | [`SKILL.md`](./SKILL.md) | 把复杂、耦合、卡住的问题重新定义目标，拆解瓶颈，并找最低成本验证路径。<br>Redefines overcomplicated or blocked problems, identifies bottlenecks, and finds the cheapest verifiable next step. | 想复杂了、推不动、既要又要、人不配合、方案越做越重。<br>Overthinking, stalled execution, both/and tradeoffs, people/process friction, heavy plans. |
 | Three-Point One-Page Report | [`skills/three-summary-one-page-report/SKILL.md`](./skills/three-summary-one-page-report/SKILL.md) | 用三条说清楚整件事，用一页报告给出问题、结论、论据和行动建议。<br>Explains a whole issue in three points and turns it into a one-page report with problem, conclusion, evidence, and action recommendation. | 总结、汇报、提案、战略规划、复杂问题解释、材料压缩。<br>Summaries, briefings, proposals, strategy notes, complex explanations, material compression. |
+| Hiring Kit Generator | [`skills/hiring-kit-generator/SKILL.md`](./skills/hiring-kit-generator/SKILL.md) | 采访用户后，为任意岗位生成完整招聘作战包：JD、面试题、评判点、Rubric、试岗、候选人指引和招聘节奏。<br>Interviews the user, then generates a full role-specific hiring kit: JD, interview questions, checkpoints, rubric, trial task, candidate guide, and hiring timeline. | 招人、写 JD、设计面试题、设计试岗、搭招聘流程。<br>Hiring, JD writing, interview design, trial tasks, hiring process design. |
 
 ## 如何使用 / How To Use
 
@@ -77,8 +78,26 @@ Material: ____
   Exactly three plain-language points.
 - `One-Page Report`：问题、结论、论据、行动建议、附件。  
   Problem, conclusion, evidence, action recommendation, and appendix.
-- `Self-Check`：确认三条是否覆盖全部、一页是否达标、模糊词是否替换、行动建议是否明确。  
+- `Self-Check`：确认三条是否覆盖全部、一页是否达标、模糊词是否替换、行动建议是否明确。
   A self-check for full coverage, page limit, vague wording, and explicit action.
+
+### Hiring Kit Generator
+
+一句话工作法 / One-line workflow:
+
+> 先采访岗位背景和人才画像，再确认假设，最后输出可投放 JD、内部评判标准、试岗任务和招聘节奏。
+> Interview for role context and talent profile first, confirm assumptions, then produce a publishable JD, internal evaluation criteria, trial task, and hiring timeline.
+
+该 skill 激活后应输出 / Expected outputs:
+
+- `Intake Confirmation`：岗位范围、业务问题、人才画像和默认假设。
+  Role scope, business problem, talent profile, and assumptions.
+- `Polished Hiring Kit`：适合归档和协作的完整招聘作战包。
+  A polished hiring kit for internal collaboration and archiving.
+- `Plain-Text Version`：适合招聘平台和聊天转发的纯文本版本。
+  A copyable plain-text version for job boards and chats.
+- `Pre-Publication Deletion Checklist`：公开投放前删除内部评判、挖坑答案和私有信息。
+  A checklist to remove internal evaluation details, hidden-trap answers, and private data before publication.
 
 ## 版权与来源说明 / Rights And Sources
 
