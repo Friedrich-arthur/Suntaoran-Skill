@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hiring Kit Generator"
+  short_description: "Generate role-specific hiring kits after interviewing the user."
+  default_prompt: "I need to hire a role. Interview me first, then generate the full hiring kit."
